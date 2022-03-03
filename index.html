@@ -4,45 +4,77 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./asset/css/style.css">
     <title>Conner Iraola Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
+<header>
+    <h1 class='page-title'>Conner Iraola</h1>     
+    <nav>
+        <ul class="nav">
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#footer">Contact Me</a>
+        </ul>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="selfie">
+        <h2>Bootcamp Student</h2>
+    </div>
+</div>
+
 <body>
-    <header class='header'>
-        <p>Conner Iraola</p>
-        <h1 class='masthead-heading'>Your Name Here</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">About Me</a>
-                    <a href="">Work</a>
-                    <a href="">Contact Me</a>
-                    <a href="">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
     <main class="main">
-        <section>
-            <h1>About Me</h1>
-            <p>Details here...</p>
+        <section class="about-me">
+        <h2 id="aboutme">About Me</h2>
+            <p>Aspiring web developer from Seattle, WA. Graduated from Washington State University in 2015 with a BA in Marketing. Currently employed at OfferUp on the Legal Investigations team.</p>
         </section>
-        <section>
-            <h2>Work</h2>
+        <section class ="projects">
+            <h2 id="work">Work</h2>
+            <div class="cards">
+                <section class="card1">
+                    <figcaption>Surf Report</figcaption>
+                    <img src="./asset/images/surf.jpg" alt="Surf Report">
+                    <p>MERN Stack</p>
+                </section>
+                <section class="card2">
+                    <figcaption>LED Wall</figcaption>
+                    <img src="./asset/images/led.jpg" alt="LED Wall">
+                    <p>Node/IoT</p>
+                </section>
+                <section class="card2">
+                    <figcaption>Calculator</figcaption>
+                    <img src="./asset/images/calc.jpg" alt="Calculator">
+                    <p>React / JavaScript / CSS</p>
+                </section>
+                <section class="card2">
+                    <figcaption>Pastel Puzzels</figcaption>
+                    <img src="./asset/images/pastel.jpg" alt="Pastel Puzzels">
+                    <p>MERN Stack</p>
+                </section>
+                <section class="card2">
+                    <figcaption>Run Buddy</figcaption>
+                    <img src="./asset/images/run.jpg" alt="Run Buddy">
+                    <p>HTML / CSS</p>
+                </section>
+            </div>
         </section>
     </main>
-
-    <footer id="footer">
-        <p>Contact Me</p>
-        <li><a href="http://www.github.com/conneriraola">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/conner-iraola-a54436103/">LinkedIn</a></li>
-    </footer>
 </body>
 
-
-
+<footer id="footer">
+    <h2>Contact Me</h2>
+    <ul class="footer-links">
+        <li>425-463-8309</li>
+        <li>conner_iraola@yahoo.com</li>
+        <li><a href="http://www.github.com/conneriraola">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/conner-iraola-a54436103/">LinkedIn</a></li>
+    </ul>
+    
+</footer>
 
 </html>
