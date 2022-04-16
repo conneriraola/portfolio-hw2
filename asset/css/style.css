@@ -197,11 +197,11 @@ a:hover{
     cursor:pointer;
 }
 
-.card2 img:hover {
+/* .card2 img:hover {
     cursor: not-allowed;
-}
+} */
 
-.card1 img:hover {
+.card img:hover {
     cursor: pointer;
 }
 

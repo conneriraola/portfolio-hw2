@@ -5,4 +5,4 @@ To create a portfolio
 [Deployed Link](https://conneriraola.github.io/portfolio-hw2/)
 
 ## SCREENSHOT
-<img src="asset/images/Conner-Iraola-Portfolio.png" width="300px">
+<img src="assets/images/Password-Generator.png" width="300px">
